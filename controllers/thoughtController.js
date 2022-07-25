@@ -12,8 +12,8 @@ const thoughtController = {
       .sort({ _id: -1 })
       .then((data) => res.json(data))
       .catch((err) => {
-        console.log(err);
-        res.sendStatus(400);
+        console.log(err)
+        res.sendStatus(400)
       });
   },
 
